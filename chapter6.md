@@ -311,5 +311,32 @@
 > **10.브랜치 전송**
 
 > **11.브랜치 삭제**
+   
+   - 먼저 현재 자신이 있는 브랜치는 삭제할 수 없습니다.
+   - git branch -d +<b>현재있는 브랜치</b> = 자신의 브랜치 삭제
+<img width=500 alt="오류 사항" src="https://user-images.githubusercontent.com/101091207/194764475-a1344a69-f62d-4be4-85eb-e8d32c5dc474.png">
+  
+  - 일반적인 삭제 방법 (스테이지가 깔끔한 상태에서만 삭제를 허용합니다!)
+  -git branch -d +<b>삭제할 브랜치 이름</b> = 병합되지않고, 스테이지가 깔끔한 브랜치 삭제
+<img width=500 alt="일반적인 상황" src="https://user-images.githubusercontent.com/101091207/194764613-acfdd7e3-f41e-4baa-a880-fde17ecf0ae9.png">
 
-> **12.정리**
+  - 강제로 삭제하기(워킹 디렉토리 또는 추가 커밋 작업이 있으면 삭제가 되지않아서 이럴 경우 사용합니다)
+  - git branch -D <b>+삭제할 브랜치 이름</b> = 대문자 D를 통해 강제 브랜치 삭제
+  <img width=500 alt="강제삭제" src="https://user-images.githubusercontent.com/101091207/194765012-e2df9639-5c05-41e7-a9c7-83c22b4632ba.png">
+  
+  - 소스트리에서 삭제하는 방법
+  - 삭제할 브랜치 우클릭 후 feature 삭제 메뉴 클릭 =소스트리에서의 브랜치 삭제
+ <img width=500 height=300 alt="소스트리 삭제" src="https://user-images.githubusercontent.com/101091207/194765324-b54ccecd-673e-4366-8cd9-374ba3d00540.jpg">
+ 
+ - 리모트 브랜치 삭제하는 방법
+ - git push origin -- delete <b>+리모트 브랜치 이름</b>
+<img width=500 src="https://user-images.githubusercontent.com/101091207/194765722-cf1c59e2-174d-4bc4-9f8f-d22b78fa8746.png">
+<br>
+
+> **12. 정리**
+
+  6장에서는 브랜치의 개념과 브랜치 생성부터 이동, 작업방법, 삭제까지 전반적인 내용을 담았습니다.
+
+  - 브랜치는 기존의 코드를 분리하고, 분리된 브랜치는 서로 간섭없이 별개 작업을 수행할 수 있습니다.
+
+  - 다른 개발자와의 협업을 통해 프로젝트를 진행하고, 분리된 코드를 병합 할 수도 있습니다.
