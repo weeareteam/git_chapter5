@@ -217,10 +217,6 @@
 ![17](https://user-images.githubusercontent.com/115402800/194763669-f73b8750-901c-4b6a-a14c-aed283c32b9a.png)
 <br>
 
-> **4. 브랜치 확인**
-
-> **5.브랜치 이동**
-
 > **6.브랜치 공간**
 
 - **git log --graph --all** : 현재까지 작업한 로그 기록 확인 및 브랜치 흐름 보기
