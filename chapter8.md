@@ -1,8 +1,16 @@
 ## 📄 병합과 충돌
 
 > **1. 병합**
-
-
+- 분리된 브랜치를 한 브랜치로 합치는 작업
+- 실습준비
+	- 작업공간 생성
+	<img width="560"  src="https://user-images.githubusercontent.com/101091207/200317441-d6f57a83-c351-40e9-bb4b-d3fb2b755953.png">
+	
+	- index.htm 파일 작성
+	<img width="560" src="https://user-images.githubusercontent.com/101091207/200317957-ae99edb2-e23f-4701-a60d-6134ecc0401e.png">
+	
+	- 커밋
+	<img width="560" src="https://user-images.githubusercontent.com/101091207/200318922-52bb4f8b-fd20-4b48-8c9c-38a43b428c89.png">
 > **2. Fast-Forward 병합**
 
 - 순차적 커밋에 맞추어 병합을 처리하는 방법
