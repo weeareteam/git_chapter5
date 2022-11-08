@@ -50,11 +50,29 @@
 <br>
 
 > **3. 3-way 병합**
+- 좀 더 복잡한 병합을 처리할 수 있는 방법.
 
 - **브랜치 생성과 수정 작업**
+![1번](https://user-images.githubusercontent.com/112995618/200582558-f4946196-fe94-4c13-8beb-f33f9ab7adeb.png)
+-hotfix 브랜치를 생성하고, hotfix로 체크아웃합니다.
+
+![2번](https://user-images.githubusercontent.com/112995618/200583390-e7a423bf-7ca0-447c-a7d8-dba81411b2a3.png)
+-<footer>태크를 추가하고 저장합니다.
+	
+![3번](https://user-images.githubusercontent.com/112995618/200584816-3219f1e2-58f1-4785-8a8a-1f1f6377da47.png)
+-수정한 파일을 커밋하고 다시 <footer> 내용을 추가합니다.
+
+![4번](https://user-images.githubusercontent.com/112995618/200584860-2d6b62a9-e837-4b2f-b888-146143f0ee75.png)
+-수정한 파일을 커밋하면, hotfix 브랜치에 새로운 커밋이 2개 추가되었습니다.
 
 - **마스터 변경**
-
+![5번](https://user-images.githubusercontent.com/112995618/200585235-b1b97dd0-6133-47f8-bea5-43b578b287be.png)
+-브랜치를 main으로 이동하고 파일에 menu3을 추가한다.
+![6번](https://user-images.githubusercontent.com/112995618/200585626-e8048720-9135-4681-9ab1-55bcf1de6dbd.png)
+-수정된 파일을 커밋하고 파일에 menu4를 추가하고 커밋한다. 이로써 메뉴가 4개이고, <b>기준 커밋에서 서로 다른 브랜치의 커밋이 연결된다.</b>
+![7번](https://user-images.githubusercontent.com/112995618/200586185-d7f22a3e-eac4-43f6-9714-308fcd83bbed.png)
+-소스트리를 통해 더욱 직관적으로 그래프 모양을 확인할 수 있다.
+	
 - **공통 조상**
 
   - 두 브랜치를 병합하려면 먼저 분할인 공통 커밋을 찾아야 함(=공통 조상 커밋)
