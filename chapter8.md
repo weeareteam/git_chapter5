@@ -79,9 +79,17 @@
 
   - 3-way 병합은 Fast-Forward 병합과 달리 병합 메시지가 필요 (깃은 두 브랜치를 병합한 후에 새로운 커밋을 하며 동시에 메시지 자동생성)
   
-  - **git merge 브랜치이름 --edit** : 자동으로 작성되는 메시지 외에 직접 커밋 메시지를 작성가능
+  - **git merge [브랜치이름] --edit** : 자동으로 작성되는 메시지 외에 직접 커밋 메시지를 작성가능
 	
   - **git reset --hard head^** : 바로 앞의 병합 취소
 <br>
 
 > **4. 브랜치 삭제**
+
+- **병합 후 삭제**
+
+  - **git branch -d [브랜치이름]** : 병합을 완료한 브랜치 삭제 
+  
+  - **git branch -D [브랜치이름]** : 병합을 완료하지 않은 브랜치 삭제
+
+  <img width="596" alt="git branch -d" src="https://user-images.githubusercontent.com/114068529/200566316-57f7fa82-f73b-4902-ae58-df33414cd77a.PNG">
