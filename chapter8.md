@@ -53,17 +53,18 @@
 - 좀 더 복잡한 병합을 처리할 수 있는 방법.
 
 - **브랜치 생성과 수정 작업**
-![1번](https://user-images.githubusercontent.com/112995618/200582558-f4946196-fe94-4c13-8beb-f33f9ab7adeb.png)
--hotfix 브랜치를 생성하고, hotfix로 체크아웃합니다.
 
-![2번](https://user-images.githubusercontent.com/112995618/200583390-e7a423bf-7ca0-447c-a7d8-dba81411b2a3.png)
--<footer>태크를 추가하고 저장합니다.
+  - hotfix 브랜치를 생성하고, hotfix로 체크아웃
+  ![1번](https://user-images.githubusercontent.com/112995618/200582558-f4946196-fe94-4c13-8beb-f33f9ab7adeb.png)
+  
+  - <footer>태크를 추가하고 저장
+  ![2번](https://user-images.githubusercontent.com/112995618/200583390-e7a423bf-7ca0-447c-a7d8-dba81411b2a3.png)
 	
-![3번](https://user-images.githubusercontent.com/112995618/200584816-3219f1e2-58f1-4785-8a8a-1f1f6377da47.png)
--수정한 파일을 커밋하고 다시 <footer> 내용을 추가합니다.
+  - 수정한 파일을 커밋하고 다시 <footer> 내용을 추가
+  ![3번](https://user-images.githubusercontent.com/112995618/200584816-3219f1e2-58f1-4785-8a8a-1f1f6377da47.png)
 
-![4번](https://user-images.githubusercontent.com/112995618/200584860-2d6b62a9-e837-4b2f-b888-146143f0ee75.png)
--수정한 파일을 커밋하면, hotfix 브랜치에 새로운 커밋이 2개 추가되었습니다.
+  - 수정한 파일을 커밋하면, hotfix 브랜치에 새로운 커밋이 2개 추가된것을 
+  ![4번](https://user-images.githubusercontent.com/112995618/200584860-2d6b62a9-e837-4b2f-b888-146143f0ee75.png)
 
 - **마스터 변경**
 ![5번](https://user-images.githubusercontent.com/112995618/200585235-b1b97dd0-6133-47f8-bea5-43b578b287be.png)
